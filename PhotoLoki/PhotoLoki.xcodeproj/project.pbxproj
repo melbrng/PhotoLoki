@@ -19,11 +19,9 @@
 		4306DCE11AA668EE0090BE06 /* camera30.png in Resources */ = {isa = PBXBuildFile; fileRef = 4306DCE01AA668EE0090BE06 /* camera30.png */; };
 		4306DCE51AA6780E0090BE06 /* arrow-back.png in Resources */ = {isa = PBXBuildFile; fileRef = 4306DCE41AA6780E0090BE06 /* arrow-back.png */; };
 		430F91CA1AA6D6D2001A338B /* marker30.png in Resources */ = {isa = PBXBuildFile; fileRef = 430F91C91AA6D6D2001A338B /* marker30.png */; };
-		431E10DE191AC0CE00C46E52 /* PhotoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 431E10DD191AC0CE00C46E52 /* PhotoTableViewCell.m */; };
 		432132C219390BBE00216EDF /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 432132C119390BBE00216EDF /* Settings.bundle */; };
 		432132C519391DF800216EDF /* SettingsKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 432132C419391DF800216EDF /* SettingsKeys.m */; };
 		43399B83192E66B100F8C0AA /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43399B82192E66B100F8C0AA /* MapViewController.m */; };
-		433B43AC191429CB003F98BB /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 433B43A9191429CB003F98BB /* MainViewController.m */; };
 		433B43AD191429CB003F98BB /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 433B43AA191429CB003F98BB /* PhotoViewController.m */; };
 		4386B6131A99588F001B739B /* PhotoCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4386B6121A99588F001B739B /* PhotoCollectionViewController.m */; };
 		4386B6161A9A6E34001B739B /* PhotoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4386B6151A9A6E34001B739B /* PhotoDetailViewController.m */; };
@@ -75,15 +73,11 @@
 		4306DCE01AA668EE0090BE06 /* camera30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera30.png; sourceTree = "<group>"; };
 		4306DCE41AA6780E0090BE06 /* arrow-back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-back.png"; sourceTree = "<group>"; };
 		430F91C91AA6D6D2001A338B /* marker30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marker30.png; sourceTree = "<group>"; };
-		431E10DC191AC0CE00C46E52 /* PhotoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoTableViewCell.h; sourceTree = "<group>"; };
-		431E10DD191AC0CE00C46E52 /* PhotoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoTableViewCell.m; sourceTree = "<group>"; };
 		432132C119390BBE00216EDF /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		432132C319391DF800216EDF /* SettingsKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsKeys.h; sourceTree = "<group>"; };
 		432132C419391DF800216EDF /* SettingsKeys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsKeys.m; sourceTree = "<group>"; };
 		43399B81192E66B100F8C0AA /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		43399B82192E66B100F8C0AA /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
-		433B43A8191429CB003F98BB /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		433B43A9191429CB003F98BB /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		433B43AA191429CB003F98BB /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
 		433B43AB191429CB003F98BB /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
 		4386B6111A99588F001B739B /* PhotoCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionViewController.h; sourceTree = "<group>"; };
@@ -169,17 +163,6 @@
 			name = Images;
 			sourceTree = "<group>";
 		};
-		4361AE931AA518D8003BCD2E /* OldCode */ = {
-			isa = PBXGroup;
-			children = (
-				433B43A8191429CB003F98BB /* MainViewController.h */,
-				433B43A9191429CB003F98BB /* MainViewController.m */,
-				431E10DC191AC0CE00C46E52 /* PhotoTableViewCell.h */,
-				431E10DD191AC0CE00C46E52 /* PhotoTableViewCell.m */,
-			);
-			name = OldCode;
-			sourceTree = "<group>";
-		};
 		43C4685F19117122005C1253 = {
 			isa = PBXGroup;
 			children = (
@@ -223,7 +206,6 @@
 				43EB45D91C4469C500A7D864 /* Controller */,
 				432132C319391DF800216EDF /* SettingsKeys.h */,
 				432132C419391DF800216EDF /* SettingsKeys.m */,
-				4361AE931AA518D8003BCD2E /* OldCode */,
 				432132C119390BBE00216EDF /* Settings.bundle */,
 				43C4687219117122005C1253 /* Supporting Files */,
 			);
@@ -411,12 +393,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				433B43AC191429CB003F98BB /* MainViewController.m in Sources */,
 				433B43AD191429CB003F98BB /* PhotoViewController.m in Sources */,
 				43C4687819117122005C1253 /* main.m in Sources */,
 				43B1568C192D2F1D00DAB058 /* SearchLocation.m in Sources */,
 				4386B6131A99588F001B739B /* PhotoCollectionViewController.m in Sources */,
-				431E10DE191AC0CE00C46E52 /* PhotoTableViewCell.m in Sources */,
 				43399B83192E66B100F8C0AA /* MapViewController.m in Sources */,
 				43FDC909192AD01B00FD439B /* SearchPopViewController.m in Sources */,
 				4306DCCD1AA646CF0090BE06 /* MapAnnotation.m in Sources */,
