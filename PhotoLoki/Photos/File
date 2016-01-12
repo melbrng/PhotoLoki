@@ -1,0 +1,11 @@
+// UIPopoverController+iPhone.h file
+@interface UIPopoverController (iPhone)
++ (BOOL)_popoversDisabled;
+@end
+
+// UIPopoverController+iPhone.m file
+@implementation UIPopoverController (iPhone)
++ (BOOL)_popoversDisabled {
+return NO;
+}
+@end
