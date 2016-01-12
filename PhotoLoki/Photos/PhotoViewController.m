@@ -14,7 +14,6 @@
 
 @property (weak, nonatomic) IBOutlet UIButton *locationButton;
 @property (weak, nonatomic) IBOutlet UIButton *sunnyBtn;
-//@property(nonatomic,strong)NSString *photoWeather;
 @property (weak, nonatomic) IBOutlet UITextField *dateAndTimeTextField;
 @property (weak, nonatomic) IBOutlet UITextField *locationTextField;
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;

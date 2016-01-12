@@ -63,7 +63,6 @@
             // by using "calloutAccessoryControlTapped", it's a convenient way to find out which annotation was tapped
             //
             UIButton *rightButton = [UIButton buttonWithType:UIButtonTypeInfoLight];
-            [rightButton addTarget:nil action:nil forControlEvents:UIControlEventTouchUpInside];
             ((MKPinAnnotationView *)returnedAnnotationView).rightCalloutAccessoryView = rightButton;
         }
 
